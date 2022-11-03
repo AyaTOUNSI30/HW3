@@ -1,0 +1,33 @@
+
+#roro{
+    background-color: RGB(223, 207, 190);
+
+}
+
+#roro2{
+    background-color: RGB(223, 207, 190);
+    height: 45px;  
+}
+
+#roro3{
+    background-color: RGB(223, 207, 190);
+    height: 37px;  
+}
+
+#colcol{
+    background-color: RGB(155, 35, 53);
+    border-radius: 15px;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    margin: 15px;
+ 
+}
+button {
+    background-color: RGB(85, 180, 176);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}

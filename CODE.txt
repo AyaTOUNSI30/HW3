@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> bootstrap </title>
+
+
+    <!--CSS only--> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<!--JavaScript Bundle with Popper--> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" type="text/css" href="stylecolors.css">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+
+        <div class="row justify-content-around  align-items-center" id="roro2">
+        <p style="color: RGB(155, 35, 53);font-family:courier;font-size:200%;text-align: center;"><strong> Our Services </strong></p>
+        </div>
+
+
+        <div class="row justify-content-around " id="roro">
+
+            <div id="colcol" class="col-sm-3 col-md-3 col-xs-12 justify-content-center">
+                <p style="color: RGB(85, 180, 176);font-family:courier;font-size:120%;text-align: center;"><strong> Trading Ideas </strong></p>
+                <img src="trading-idea (3).jpg" width="150" height="150" >
+                <form action="https://therobusttrader.com/beginners-guide-to-trading/">
+                <button type=submit class="button">Learn More</button><br>
+                </form>
+            </div>
+
+            <div id="colcol" class="col-sm-3 col-md-3  col-xs-12  justify-content-center"> 
+                <p style="color: RGB(85, 180, 176);font-family:courier;font-size:120%;text-align: center;"><strong> Business Strategy </strong></p>
+                <img src= "business (2).jpg" width="200" height="150" >
+                <form action="https://www.indeed.com/career-advice/career-development/business-strategy-examples"> 
+                <button type=submit class="button">Learn More</button>
+                </form>
+            </div>
+
+            <div id="colcol" class="col-sm-3 col-md-3  col-xs-12">
+                <p style="color: RGB(85, 180, 176);font-family:courier;font-size:120%;text-align: center;"><strong> Project Architecture </strong></p>
+                <img src= "projectArchi.jpg" width="200" height="150" >
+                <form action="https://www.archdaily.com/search/projects?page=2"> 
+                <button type=submit class="button">Learn More</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-around" id="roro3">
+        </div>
+
+        <div class="row justify-content-around" id="roro">
+            <div id="colcol" class="col-sm-3 col-md-3 col-xs-12">
+                <p style="color: RGB(85, 180, 176);font-family:courier;font-size:120%;text-align: center;"><strong> Investment Consulting </strong></p>
+                <img src= "investment.jpg" width="220" height="150" >
+                <form action="https://www.schoolwisepartners.com/consulting?utm_source=localiq&utm_medium=cpc&utm_campaign=searchschoolwisepartnersnationalsearchcampaign&rl_override_siteid=128bb158-ded2-41ff-b020-6087ea69a698&scid=4271491&cid=3850881&tc=CjwKCAjwkaSaBhA4EiwALBgQaOYaP3dpXKbbaRVGy9dFDG3i3MlH2aDe4kByfdtwEN1jcdg3ca5iNBoC25kQAvD_BwE&rl_key=14012be682cc3d130fd6855fb2822ebb&kw=292368:0&pub_cr_id=624515409561&dynamic_proxy=1&primary_serv=www.schoolwisepartners.com&device=c&network=g&targetid=kwd-13891950&loc_physical_ms=9060354&rl_track_landing_pages=1&rl_retarget=1"> 
+                <button type=submit class="button">Learn More</button>
+                </form>
+            </div>
+            <div id="colcol" class="col-sm-3 col-md-3 col-xs-12 "> 
+                <p style="color: RGB(85, 180, 176);font-family:courier;font-size:120%;text-align: center;"><strong> Dealership Agreement</strong></p>
+                <img src= "dealership.jpg" width="220" height="150" >
+                <form action="https://www.contractscounsel.com/t/us/dealership-agreement"> 
+                <button type=submit class="button">Learn More</button>
+                </form>
+            </div>
+            <div id="colcol" class="col-sm-3 col-md-3 col-xs-12"> 
+                <p style="color: RGB(85, 180, 176);font-family:courier;font-size:120%;text-align: center;"><strong> Business Partnership</strong></p>
+                <img src= "businessPartnership.jpg" width="220" height="150" >
+                <form action="https://startnewtraining.com/articles/cut-through-the-chaos-of-your-startup-process/?gclid=CjwKCAjwkaSaBhA4EiwALBgQaHnm4ZW8RkEv1xY1CeAQImmWvfOi4jHk3Xwlx1vhwGrB6TfHcFxm9xoCzwUQAvD_BwE"> 
+                <button type=submit class="button">Learn More</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
